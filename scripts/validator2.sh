@@ -1,0 +1,12 @@
+besu --data-path=../network/validators/validator2/data \
+     --revert-reason-enabled \
+     --p2p-port=30307 \
+     --sync-mode=FAST \
+     --genesis-file=../genesis.json \
+     --rpc-http-enabled \
+     --rpc-http-port=8084 \
+     --rpc-http-api=ETH,NET,WEB3,ADMIN,DEBUG,QBFT \
+     --rpc-http-cors-origins="*" \
+     --host-allowlist="*" \
+     --min-gas-price=0 \
+     --logging=INFO \

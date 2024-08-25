@@ -1,0 +1,15 @@
+besu --data-path=../network/rpc_nodes/rpc_node1/data \
+     --revert-reason-enabled \
+     --p2p-port=30305 \
+     --genesis-file=../genesis.json \
+     --rpc-http-enabled \
+     --rpc-http-api=ETH,NET,QBFT,WEB3,DEBUG,TXPOOL \
+     --host-allowlist="*" \
+     --rpc-http-cors-origins="*" \
+     --rpc-http-port=8082 \
+     --rpc-ws-enabled \
+     --rpc-ws-port=7072 \
+     --rpc-ws-api=ETH,NET,QBFT,WEB3,DEBUG,TXPOOL \
+     --min-gas-price=0 \
+     --sync-mode=FAST \
+     --logging=INFO

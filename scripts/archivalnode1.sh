@@ -1,0 +1,12 @@
+besu --data-path=../network/archival_nodes/archival_node1/data \
+     --revert-reason-enabled \
+     --p2p-port=30301 \
+     --genesis-file=../genesis.json \
+     --rpc-http-enabled \
+     --rpc-http-api=ETH,NET,QBFT \
+     --host-allowlist="*" \
+     --rpc-http-cors-origins="all" \
+     --rpc-http-port=8081 \
+     --rpc-ws-enabled \
+     --rpc-ws-port=7071 \
+     --min-gas-price=0

@@ -5,7 +5,16 @@
     "qbft" : {
       "blockperiodseconds" : 5,
       "epochlength" : 30000,
-      "requesttimeoutseconds" : 4
+      "requesttimeoutseconds" : 4,
+      "validators":{
+        "list": [
+          "0xc0b182bb7223e8fded5f0cfa658e84a39403c792",
+          "0xd22041fe89ca4758a1b8df6fefc33a5e6f68795e",
+          "0xde49567d831d59f857b013bc6a93d8130bc4b6ff",
+          "0xee6b1cfec8dd931b93756a4408f0a7f14ad9589d",
+          "0xee2467273c005e9696b897349c5c1cbfb0d1f58f"
+        ]
+      }
     }
   },
   "nonce" : "0x0",
@@ -29,7 +38,12 @@
       "privateKey" : "ae6ae8e5ccbfb04590405997ee2d52d2b330726137b875053c36d94e974d162f",
       "comment" : "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
       "balance" : "90000000000000000000000"
-    }
+    },
+    "c0b182bb7223e8fded5f0cfa658e84a39403c792": {"balance" : "90000000000000000000000"},
+    "d22041fe89ca4758a1b8df6fefc33a5e6f68795e": {"balance" : "90000000000000000000000"},
+    "de49567d831d59f857b013bc6a93d8130bc4b6ff": {"balance" : "90000000000000000000000"},
+    "ee6b1cfec8dd931b93756a4408f0a7f14ad9589d": {"balance" : "90000000000000000000000"},
+    "ee2467273c005e9696b897349c5c1cbfb0d1f58f": {"balance" : "90000000000000000000000"}
   },
   "extraData" : "0xf8f8a00000000000000000000000000000000000000000000000000000000000000000f8d294d22041fe89ca4758a1b8df6fefc33a5e6f68795e94ad983913f1fdc925a272f30f65152e7e68bb30d994c0b182bb7223e8fded5f0cfa658e84a39403c79294ee6b1cfec8dd931b93756a4408f0a7f14ad9589d942c9ed7eb2ecfa7dc237abc053e4dcd5270670d8394ee2467273c005e9696b897349c5c1cbfb0d1f58f94de49567d831d59f857b013bc6a93d8130bc4b6ff9491466958bc534b2e362bf4ef087fbb2299905de8949178f49b74c64f1f7b63c5f3d0982ecafb1e251c941b8fc6aa9b6ed9cd18c84b34b91b76174054c6c1c080c0"
 }
