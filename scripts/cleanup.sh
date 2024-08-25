@@ -23,21 +23,27 @@ rm -r caches
 rm -r database
 rm DATABASE_METADATA.json
 
-
-
-
-
-cd ../../node2/data
+cd ../../../validators/validator1/data
 rm -r caches
 rm -r database
 rm DATABASE_METADATA.json
 
-cd ../../node3/data
+cd ../../validator2/data
 rm -r caches
 rm -r database
 rm DATABASE_METADATA.json
 
-cd ../../node4/data
+cd ../../validator3/data
+rm -r caches
+rm -r database
+rm DATABASE_METADATA.json
+
+cd ../../validator4/data
+rm -r caches
+rm -r database
+rm DATABASE_METADATA.json
+
+cd ../../validator5/data
 rm -r caches
 rm -r database
 rm DATABASE_METADATA.json
